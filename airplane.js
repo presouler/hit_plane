@@ -324,7 +324,7 @@ function getRandomStart(){
     return -Math.floor(Math.random()*1000+50);
 }
 createEnemys("small",10);
-createEnemys("middle",2);
+// createEnemys("middle",2);
 createEnemys("big",1);
 function dataHandle(){
     if(Blues.length===0){
