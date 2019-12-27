@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+.avater{
+    position: absolute;
+    height:40px;
+    top:580px;
+    left:160px;
+}
+@keyframes bg {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 0 256px;
+    }
+  }
